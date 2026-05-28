@@ -144,9 +144,3 @@ GET language
 - Add Docker Compose for multi-process demos.
 - Add a small HTTP API on top of the TCP node protocol.
 
-## Resume Bullet
-
-Built a distributed in-memory key-value store in Python using consistent hashing,
-replication, reusable TCP connections, TTL expiry, and concurrent request
-handling; benchmarked local reads at roughly 6.5K ops/sec and added unit tests
-for distribution, protocol, and fault-tolerance behavior.
